@@ -31,12 +31,6 @@
             }
         }
     </style>
-    <style>
-        td a {
-            text-decoration: none;
-        }
-    </style>
-
     <!-- Custom styles for this template -->
     <link href="<?= base_url(); ?>/assets/css/dashboard.css" rel="stylesheet" />
     <link href="<?= base_url(); ?>/assets/css/style.css" rel="stylesheet" />
