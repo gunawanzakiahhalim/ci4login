@@ -63,6 +63,7 @@
             </tbody>
         </table>
     </div>
+    <p class="text-center">Informasi</p>
     <div class="list-group">
         <a href="https://ops11.000webhostapp.com/img/Promo%20Sehat%20Hari%20Gizi%20Nasional.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Promo Sehat Hari Gizi Nasional</a>
         <a href="https://arjunadigital.000webhostapp.com/pdf/Voucher%20Patraland%20Urbano_PDS%20135%20Bright%20Gas.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Bright Gas x Patra Jasa - Beli Apartemen Gratis Bright Gas Selama 1 Tahun</a>
