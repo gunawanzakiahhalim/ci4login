@@ -27,6 +27,9 @@
               <li><?php echo $rootcause[$i]; ?></li>
             <?php endfor; ?>
           </ul>
+          <p class="text-center">
+            <a class="btn btn-success" href="https://webreport.pertaminaretail.com/Customer/Register" role="button">REGISTRASI RFID</a>
+          </p>
         </div>
         <div class="card-footer">
           <?php for ($i = 0; $i < count($cwc); $i++) : ?>
