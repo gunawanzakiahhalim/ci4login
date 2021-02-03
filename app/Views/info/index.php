@@ -92,6 +92,7 @@
                         <a href="https://www.pertamina.com/id/alamat-pusat-informasi-publik-pertamina" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Informasi Public</a>
                         <a href="https://pertaminaretail.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Pertamina Retail</a>
                         <a href="https://kemitraan.pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Kemitraan Pertamina</a>
+                        <a href="http://rspp.co.id/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">RSPP</a>
                         <a href="https://i-p2p.pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Kerjasama Vendor</a>
                         <a href="https://mypertamina.id/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">MyPertamina</a>
                         <a href="https://dashboard.my-pertamina.id/login" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Dashboard MyPertamina</a>
