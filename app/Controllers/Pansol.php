@@ -26,7 +26,12 @@ class Pansol extends BaseController
         } else {
             if ($keynull) {
                 $keypansol = $session->get('keypansol');
-                $pansol = $this->pansolModel->search($keypansol)->orderBy('id', 'DESC');
+                if ($keypansol) {
+                    $pansol = $this->pansolModel->search($keypansol)->orderBy('id', 'DESC');
+                } else {
+                    $pansol = $this->pansolModel->orderBy('id', 'DESC');
+                    $session->set('keypansol', "");
+                }
             } else {
                 $pansol = $this->pansolModel->orderBy('id', 'DESC');
                 $session->set('keypansol', "");

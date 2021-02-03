@@ -20,6 +20,10 @@ class Home extends BaseController
 	{
 		return view('info/index');
 	}
+	public function pansol()
+	{
+		return view('pansol/index');
+	}
 
 	//--------------------------------------------------------------------
 
