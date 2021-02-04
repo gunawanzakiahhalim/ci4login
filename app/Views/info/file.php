@@ -22,7 +22,7 @@
         <div class="list-group">
           <a href="http://10.194.176.140/diana/login" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Diana</a>
           <a href="https://chanelsosmed.000webhostapp.com/xlsx/Arjuna%20-%20Updates%2015%20Januari%202021.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Arjuna - Updates 15 Januari 2021</a>
-          <a href="https://spbumypertamina.000webhostapp.com/xlsx/Rekap%20SPBU%20MyPertamina%2002.02.21.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Rekap SPBU MyPertamina 02.02.21</a>
+          <a href="https://spbumypertamina.000webhostapp.com/xlsx/Rekap%20SPBU%20MyPertamina%2003.02.21.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Rekap SPBU MyPertamina 03.02.21</a>
           <a href="https://pds135.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">PDS135</a>
           <a href="https://pds135.com/backoffice" target="_blank" class="list-group-item list-group-item-action list-group-item-info">PDS135 Backoffice</a>
           <a href="https://pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Pertamina</a>
