@@ -4,15 +4,24 @@ namespace App\Controllers\Pansol_A;
 
 use App\Controllers\BaseController;
 
+use App\Models\Pansol_A\P1Model;
+
 class Menu_A_P1 extends BaseController
 {
+    protected $p1Model;
+  
+    public function __construct()
+    {
+        $this->p1Model = new P1Model();
+    }
+
     public function index()
     {
         $uri = new \CodeIgniter\HTTP\URI($this->uri_pansol_A);
         $myuri = $uri->getSegments(2);
         $data = [
             'menuuri' => $myuri[0],
-            'title' => 'Antrian Pengisian BBM di SPBU',
+            'title' => $this->p1Model->title,
             'update' => '8:48 16/Oct/20',
             'rootcause' => [
                 'Penyebab antrian itu secara umum ada 2 hal.',
