@@ -9,7 +9,7 @@ use App\Models\Pansol_A\P1Model;
 class Menu_A_P1 extends BaseController
 {
     protected $p1Model;
-  
+
     public function __construct()
     {
         $this->p1Model = new P1Model();
@@ -21,7 +21,7 @@ class Menu_A_P1 extends BaseController
         $myuri = $uri->getSegments(2);
         $data = [
             'menuuri' => $myuri[0],
-            'title' => $this->p1Model->title,
+            'title' => $this->p1Model->getJudulPansol(1),
             'update' => '8:48 16/Oct/20',
             'rootcause' => [
                 'Penyebab antrian itu secara umum ada 2 hal.',
@@ -63,7 +63,7 @@ class Menu_A_P1 extends BaseController
                 'CP :',
                 'Infokan SLA'
             ],
-            'sla' => '3x24 Jam'
+            'sla' => $this->p1Model->getSla(1)
         ];
 
         return view('A/P1/index', $data);

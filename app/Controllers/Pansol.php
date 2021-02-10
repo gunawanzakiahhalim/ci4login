@@ -98,6 +98,7 @@ class Pansol extends BaseController
             'judul' => $this->request->getVar('judul'),
             'slug' => $slug,
             'id_menu' => $this->request->getVar('id_menu'),
+            'sla' => $this->request->getVar('sla'),
             'subcategory1' => $this->request->getVar('subcategory1'),
             'status' => $this->request->getVar('status')
         ]);
@@ -154,6 +155,7 @@ class Pansol extends BaseController
             'judul' => $this->request->getVar('judul'),
             'slug' => $slug,
             'id_menu' => $this->request->getVar('id_menu'),
+            'sla' => $this->request->getVar('sla'),
             'subcategory1' => $this->request->getVar('subcategory1'),
             'status' => $this->request->getVar('status')
         ]);
