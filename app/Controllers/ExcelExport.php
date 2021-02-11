@@ -3,8 +3,8 @@
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use \PhpOffice\PhpSpreadsheet\Spreadsheet;
-use \PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 class ExcelExport extends Controller
 {
