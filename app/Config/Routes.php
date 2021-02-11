@@ -54,6 +54,9 @@ $routes->get('/pansol/edit/(:segment)', 'Pansol::edit/$1');
 $routes->delete('/pansol/(:num)', 'Pansol::delete/$1');
 $routes->get('/pansol/(:any)', 'Pansol::detail/$1');
 
+// contriller ExelExport
+$routes->get('/ExelExport', 'ExcelExport::index');
+
 
 /**
  * --------------------------------------------------------------------
