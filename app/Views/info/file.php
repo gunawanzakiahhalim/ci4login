@@ -20,6 +20,7 @@
         <h5 class="card-title text-center">Pertamina Call Center Application</h5>
         <h6 class="card-subtitle mb-2 text-muted mt-3">Ecommerce & Content</h6>
         <div class="list-group">
+          <a href="https://www.pertaminafuels.com/harga-dan-lokasi" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Harga BBM</a>
           <a href="https://recruitment.pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Recruitment</a>
           <a href="https://drlube.pertaminalubricants.com/index.php/Home/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Dr.LUBE</a>
           <a href="https://spbumypertamina.000webhostapp.com/xlsx/list%20spbu%20produk.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">List SPBU Produk</a>
