@@ -20,8 +20,8 @@
         <h5 class="card-title text-center">Pertamina Call Center Application</h5>
         <h6 class="card-subtitle mb-2 text-muted mt-3">Ecommerce & Content</h6>
         <div class="list-group">
+          <a href="https://ops13.000webhostapp.com/index.php/promo" target="_blank" class="list-group-item list-group-item-action list-group-item-info">2021_01 Daftar Bright Store Promo Hari Gizi Nasional</a>
           <a href="https://chanelsosmed.000webhostapp.com/xlsx/Arjuna%20-%20Updates%2018%20Februari%202021.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Arjuna - Updates 18 Februari 2021</a>
-          <a href="https://brightstores.000webhostapp.com/index.php/promo" target="_blank" class="list-group-item list-group-item-action list-group-item-info">2021_01 Daftar Bright Store Promo Hari Gizi Nasional</a>
           <a href="https://www.pertaminafuels.com/harga-dan-lokasi" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Harga BBM</a>
           <a href="https://recruitment.pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Recruitment</a>
           <a href="https://drlube.pertaminalubricants.com/index.php/Home/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Dr.LUBE</a>
