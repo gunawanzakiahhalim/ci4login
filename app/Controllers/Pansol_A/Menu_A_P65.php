@@ -13,13 +13,17 @@ class Menu_A_P65 extends BaseController
         $data = [
             'menuuri' => $myuri[0],
             'title' => 'Syarat dan Ketentuan RFID',
-            'update' => '11:03 26/Oct/20',
+            'update' => '17:12 18/Feb/21',
             'rootcause' => [
                 'Cara menggunakan/ mendapatkan kartu RFID'
             ],
             'cwc' => ['Information - Layanan BBK - Syarat dan Ketentuan RFID'],
             'todolist' => [
-                'Informasi eksisting by Diana'
+                'Pelanggan datang Ke SPBU COCO dan Menyerahkan Pertamina Retail Card kepada petugas',
+                'Petugas akan melakukan tapping Kartu PAS ke RFID Card Reader, dan memastikan nama pemilik dan saldo masih tersedia pada layar reader',
+                'Pelanggan memilih produk BBM/BBK',
+                'Petugas melakukan pengisian sesuai dengan permintaan pelanggan',
+                'Ticket Printer secara otomatis mencetak 2 berkas struk yang harus ditandatangani oleh petugas dan pemilik Pertamina Retail Card'
             ],
             'mandatory' => [
                 'mandatory',
