@@ -14,7 +14,7 @@ class InfoModel extends Model
     {
 
         if ($slug == false) {
-            return $this->findAll();
+            return $this->orderBy('id', 'DESC')->findAll();
         }
 
         return $this->where(['slug' => $slug])->first();
