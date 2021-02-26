@@ -1,3 +1,11 @@
+<div class="row justify-content-center mb-2">
+  <div class="col-md-5">
+  <div class="p-3 mb-2 bg-primary bg-gradient rounded text-center"><a href="https://arjunadigital.000webhostapp.com/promo/tradein/pdf/Program%20Promo%20Trade%20In%20melalui%20PCC%20135%20V2.pdf" target="_blank" class="text-white text-decoration-none "><h6>Program Promo Trade In melalui PCC 135 V2</h6></a></div>
+  </div>
+  <div class="col-md-5"> 
+  <div class="p-3 mb-2 bg-primary bg-gradient rounded text-center"><a href="https://ops4.000webhostapp.com/" target="_blank" class="text-white text-decoration-none"><h6>Cek Kuota Promo Harian</h6></a></div>
+  </div>
+</div>
 <div class="row mb-3">
   <div class="col-md-6">
     <div class="card shadow">
@@ -17,7 +25,6 @@
         </div>
         <a href="https://kemitraan.pertamina.com/dashboard/procedure.html" target="_blank" class="btn btn-primary">Prosedur</a>
         <a href="https://kemitraan.pertamina.com/dashboard/faq.html" target="_blank" class="btn btn-primary">Tanya Jawab</a>
-
       </div>
     </div>
   </div>
@@ -87,6 +94,10 @@
         <div class="list-group">
           <h6 class="card-subtitle mb-2 text-muted mt-3">Lubricant</h6>
           <a href="https://arjunadigital.000webhostapp.com/lubricant/pdf/Harga%20Fastron%20di%20SPBU%20PDS.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Harga Fastron di SPBU PDS</a>
+        </div>
+        <div class="list-group">
+          <h6 class="card-subtitle mb-2 text-muted mt-3">Promo</h6>
+          <a href="https://arjunadigital.000webhostapp.com/promo/tradein/pdf/Program%20Promo%20Trade%20In%20melalui%20PCC%20135%20V2.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Program Promo Trade In melalui PCC 135 V2</a>
         </div>
 
       </div>
