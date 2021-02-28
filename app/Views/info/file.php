@@ -1,11 +1,22 @@
-<div class="row justify-content-center mb-2">
-  <div class="col-md-5">
-  <div class="p-3 mb-2 bg-primary bg-gradient rounded text-center"><a href="https://arjunadigital.000webhostapp.com/promo/tradein/pdf/Program%20Promo%20Trade%20In%20melalui%20PCC%20135%20V2.pdf" target="_blank" class="text-white text-decoration-none "><h6>Program Promo Trade In melalui PCC 135 V2</h6></a></div>
+<div class="row justify-content-center mb-1">
+  <div class="col-md-7">
+  <div class="p-2 mb-2 bg-danger bg-gradient rounded text-center">
+  <a href="https://rensi135.000webhostapp.com/news" target="_blank" class="text-white text-decoration-none">
+  <h6 class="pt-1">News Archive</h6>
+  </a>
   </div>
-  <div class="col-md-5"> 
-  <div class="p-3 mb-2 bg-primary bg-gradient rounded text-center"><a href="https://ops4.000webhostapp.com/" target="_blank" class="text-white text-decoration-none"><h6>Cek Kuota Promo Harian</h6></a></div>
   </div>
 </div>
+
+<div class="row justify-content-center mb-2">
+  <div class="col-md-5">
+  <div class="p-2 mb-2 bg-primary bg-gradient rounded text-center"><a href="https://arjunadigital.000webhostapp.com/promo/tradein/pdf/Program%20Promo%20Trade%20In%20melalui%20PCC%20135%20V2.pdf" target="_blank" class="text-white text-decoration-none "><h6>Program Promo Trade In melalui PCC 135 V2</h6></a></div>
+  </div>
+  <div class="col-md-5"> 
+  <div class="p-2 mb-2 bg-primary bg-gradient rounded text-center"><a href="https://ops4.000webhostapp.com/" target="_blank" class="text-white text-decoration-none"><h6>Cek Kuota Promo Trade In Harian</h6></a></div>
+  </div>
+</div>
+
 <div class="row mb-3">
   <div class="col-md-6">
     <div class="card shadow">
@@ -34,16 +45,19 @@
       <div class="card-body">
         <h5 class="card-title">Excel</h5>
         <div class="list-group">
+          <a href="https://spbumypertamina.000webhostapp.com/xlsx/CWC%20010321%20Fix.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">
+          <span data-feather="download"></span>
+          CWC 010321 Fix
+          </a>
           <a href="https://spbumypertamina.000webhostapp.com/xlsx/Rekap%20SPBU%20MyPertamina%2022.02.21.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Rekap SPBU MyPertamina 22.02.21
             <?php $timeTarget = 1614826654; ?>
             <?php if ($timeTarget > time()) : ?>
               <span class="badge bg-success">New</span>
             <?php endif; ?>
           </a>
-          <a href="https://chanelsosmed.000webhostapp.com/xlsx/Arjuna%20-%20Updates%2018%20Februari%202021.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Arjuna - Updates 18 Februari 2021
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
-            </svg>
+          <a href="https://chanelsosmed.000webhostapp.com/xlsx/Arjuna%20-%20Updates%2018%20Februari%202021.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">
+          <span data-feather="download"></span>
+          Arjuna - Updates 18 Februari 2021
           </a>
           <a href="https://spbumypertamina.000webhostapp.com/xlsx/list%20spbu%20produk.xlsx" target="_blank" class="list-group-item list-group-item-action list-group-item-info">List SPBU Produk
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
