@@ -123,6 +123,8 @@
         <h5 class="card-title text-center">Pertamina Call Center Application</h5>
         <h6 class="card-subtitle mb-2 text-muted mt-3">Ecommerce & Content</h6>
         <div class="list-group">
+          <a href="https://www.google.com/maps/d/viewer?mid=1nTymYs_wuUcm3KZIjFZvpuJbSuin_GJI&ll=-2.535414694795405%2C118.0075225&z=4" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Bengkel Hari Gajian 2021</a>
+          <a href="https://ptm.id/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">ptm</a>
           <a href="https://eppid.pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">E-PPID Pertamina</a>
           <a href="https://kemitraan.pertamina.com/" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Kemitraan Pertamina</a>
           <a href="https://rensi135.000webhostapp.com/news" target="_blank" class="list-group-item list-group-item-action list-group-item-info">News archive</a>
