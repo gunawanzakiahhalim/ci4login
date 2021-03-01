@@ -63,9 +63,11 @@
             </tbody>
         </table>
     </div>
-
-    <?php include_once('file.php'); ?>
-
+    <?php include_once('file1.php'); ?>
+    <?php include_once('file2.php'); ?>
+    <?php include_once('file3.php'); ?>
+    <?php include_once('file4.php'); ?>
+    <?php include_once('file5.php'); ?>
 </main>
 
 </div>
