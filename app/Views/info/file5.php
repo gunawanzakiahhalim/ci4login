@@ -5,6 +5,7 @@
                 <h5 class="card-title text-center">Informasi</h5>
                 <div class="list-group">
                     <h6 class="card-subtitle mb-2 text-muted mt-3">**Informasi Lengkap cek Diana</h6>
+                    <a href="https://ops11.000webhostapp.com/img/Harga%20BBM%20Industri%20periode%20I%20Maret%202021.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Harga BBM Industri periode I Maret 2021</a>
                     <a href="https://ops11.000webhostapp.com/img/Hemat%20Makin%20Dahsyat%20Rp%20300.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Hemat Makin Dahsyat Rp 300</a>
                     <a href="https://arjunadigital.000webhostapp.com/pdf/Materi%20Upskilling%20PCC%201-500-000.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Materi Upskilling PCC 1-500-000</a>
                     <a href="https://ops11.000webhostapp.com/img/Lokasi%20Penukaran%20Pelumas.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Lokasi Penukaran Pelumas</a>

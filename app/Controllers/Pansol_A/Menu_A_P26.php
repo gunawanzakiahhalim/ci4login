@@ -12,15 +12,15 @@ class Menu_A_P26 extends BaseController
         $myuri = $uri->getSegments(2);
         $data = [
             'menuuri' => $myuri[0],
-            'title' => 'Kerjasama Promosi Produk',
-            'update' => '10:35 26/Oct/20',
+            'title' => 'Kerjasama Untuk Promosi',
+            'update' => '20:16 02/Mar/2021',
             'rootcause' => [
                 'Pelanggan ingin mengadakan kerjasama promosi produk.'
             ],
             'misal' => [
                 'iklan, ingin membuka booth promo event di SPBU'
             ],
-            'cwc' => ['Information - Layanan BBK - Kerjasama Promosi Produk'],
+            'cwc' => ['Information - Layanan BBM - Kerjasama Untuk Promosi'],
             'todolist' => [
                 'Nama Pelapor :',
                 'Nama PIC :',
