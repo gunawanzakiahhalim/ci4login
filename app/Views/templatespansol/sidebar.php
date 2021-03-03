@@ -60,6 +60,14 @@
                         "default" => "Menu_G_P1"
                     ],
                     [
+                        "heading" => "heading_H",
+                        "id_menu" => "pansol_H",
+                        "icons" => "layers",
+                        "nama" => "PKBL",
+                        "link" => "menu_H",
+                        "default" => "Menu_H_P1"
+                    ],
+                    [
                         "heading" => "heading_Z",
                         "id_menu" => "pansol_Z",
                         "icons" => "layers",

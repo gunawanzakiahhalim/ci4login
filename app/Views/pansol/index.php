@@ -54,6 +54,8 @@
                         <?php $menu = 'pansol_F'; ?>
                     <?php elseif ($k['subcategory1'] == 'PDS') : ?>
                         <?php $menu = 'pansol_G'; ?>
+                    <?php elseif ($k['subcategory1'] == 'SPBU & Fuel Product') : ?>
+                        <?php $menu = 'pansol_H'; ?>
                     <?php elseif ($k['subcategory1'] == 'Lain-Lain') : ?>
                         <?php $menu = 'pansol_Z'; ?>
                     <?php endif; ?>
