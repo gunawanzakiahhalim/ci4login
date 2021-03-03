@@ -9,8 +9,7 @@
     "require": {
         "php": ">=7.2",
         "codeigniter4/framework": "^4",
-        "myth/auth": "^1.0@beta",
-        "fzaninotto/faker": "^1.5"
+        "myth/auth": "^1.0@beta"
     },
     "require-dev": {
         "mikey179/vfsstream": "1.6.*",
