@@ -49,6 +49,7 @@ class BaseController extends Controller
 		$this->uri_pansol_E = 'http://localhost:8080/pansol_E';
 		$this->uri_pansol_F = 'http://localhost:8080/pansol_F';
 		$this->uri_pansol_G = 'http://localhost:8080/pansol_G';
+		$this->uri_pansol_H = 'http://localhost:8080/pansol_H';
 		$this->uri_pansol_Z = 'http://localhost:8080/pansol_Z';
 		//session();
 	}

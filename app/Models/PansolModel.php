@@ -8,7 +8,7 @@ class PansolModel extends Model
 {
     protected $table = 'pansol';
     protected $useTimestamps = true;
-    protected $allowedFields = ['judul', 'slug', 'id_menu', 'sla', 'subcategory1', 'status'];
+    protected $allowedFields = ['judul', 'slug', 'id_menu', 'sla', 'subcategory1', 'subcategory2', 'status'];
 
     public function search($keyword)
     {

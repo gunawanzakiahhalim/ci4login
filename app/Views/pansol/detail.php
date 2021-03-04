@@ -34,6 +34,12 @@
         </div>
       </div>
       <div class="mb-3 row">
+        <label for="subcategory2" class="col-sm-2 col-form-label"><b>subcategory2</b></label>
+        <div class="col-sm-10">
+          <input type="text" readonly class="form-control-plaintext" id="subcategory2" value="<?= $pansol['subcategory2']; ?>">
+        </div>
+      </div>
+      <div class="mb-3 row">
         <label for="status" class="col-sm-2 col-form-label"><b>status</b></label>
         <div class="col-sm-10">
           <input type="text" readonly class="form-control-plaintext" id="status" value="<?= $pansol['status']; ?>">

@@ -56,6 +56,15 @@
             </div>
         </div>
         <div class="mb-3 row">
+            <label for="subcategory2" class="col-sm-2 col-form-label">subcategory2</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control <?= ($validation->hasError('subcategory2')) ? 'is-invalid' : ''; ?>" id="subcategory2" name="subcategory2" value="<?= (old('subcategory2')) ? old('subcategory2') : $pansol['subcategory2'] ?>">
+                <div class="invalid-feedback">
+                    <?= $validation->getError('subcategory2'); ?>
+                </div>
+            </div>
+        </div>
+        <div class="mb-3 row">
             <label for="status" class="col-sm-2 col-form-label">status</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control <?= ($validation->hasError('status')) ? 'is-invalid' : ''; ?>" id="status" name="status" value="<?= (old('status')) ? old('status') : $pansol['status'] ?>">

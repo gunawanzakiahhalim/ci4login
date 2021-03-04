@@ -1,23 +1,23 @@
 <?php
 
-namespace App\Controllers\Pansol_A;
+namespace App\Controllers\Pansol_H;
 
 use App\Controllers\BaseController;
 
-class Menu_A_P39 extends BaseController
+class Menu_H_P1 extends BaseController
 {
     public function index()
     {
-        $uri = new \CodeIgniter\HTTP\URI($this->uri_pansol_A);
+        $uri = new \CodeIgniter\HTTP\URI($this->uri_pansol_H);
         $myuri = $uri->getSegments(2);
         $data = [
             'menuuri' => $myuri[0],
             'title' => 'Mendahulukan Pengisian Jeriken',
-            'update' => '14:08 21/Oct/20',
+            'update' => '9:04 04/Mar/21',
             'rootcause' => [
                 'Operator SPBU melayani pembelian BBM, dimana calon pembeli tersebut tidak mengikuti antrian (menorobos antrian) dan pembelian menggunakan jeriken maka termasuk mendahulukan pengisian jeriken.'
             ],
-            'cwc' => ['Complaint - Layanan BBK - Mendahulukan Pengisian Jeriken'],
+            'cwc' => ['Keluhan - SPBU & Fuel Product - Antrian Pengisian BBM di SPBU - Mendahulukan Pengisian Jeriken'],
             'todolist' => [
                 'Nama Pelapor',
                 'Tanggal dan Waktu Kejadian',
@@ -40,6 +40,6 @@ class Menu_A_P39 extends BaseController
             ],
             'sla' => '3x24 Jam'
         ];
-        return view('A/P39/index', $data);
+        return view('H/P1/index', $data);
     }
 }

@@ -63,7 +63,7 @@
                         "heading" => "heading_H",
                         "id_menu" => "pansol_H",
                         "icons" => "layers",
-                        "nama" => "PKBL",
+                        "nama" => "SPBU & Fuel Product",
                         "link" => "menu_H",
                         "default" => "Menu_H_P1"
                     ],
