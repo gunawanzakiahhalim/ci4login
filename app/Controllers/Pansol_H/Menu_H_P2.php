@@ -1,25 +1,25 @@
 <?php
 
-namespace App\Controllers\Pansol_A;
+namespace App\Controllers\Pansol_H;
 
 use App\Controllers\BaseController;
 
-class Menu_A_P17 extends BaseController
+class Menu_H_P2 extends BaseController
 {
     public function index()
     {
-        $uri = new \CodeIgniter\HTTP\URI($this->uri_pansol_A);
+        $uri = new \CodeIgniter\HTTP\URI($this->uri_pansol_H);
         $myuri = $uri->getSegments(2);
         $data = [
             'menuuri' => $myuri[0],
-            'title' => 'Informasi Stock BBM',
-            'update' => '10:26 26/Oct/20',
+            'title' => 'Informasi Stok BBM',
+            'update' => '11:45 05/03/2021',
             'rootcause' => [
                 'Pelanggan ingin mengetahui stock produk BBM di SPBU.',
                 'Dalam case ini yang ditanyakan oleh pelanggan adalah ketersediaan stock BBM tertentu (atau sisa stock), bukan hanya ingin mengetahui SPBU tersebut menjual produk BBM tertentu.',
                 'Indikasinya ada kekhawatiran ketika pelanggan mendatangi SPBU yang dimaksud, produk yang ingin dibeli habis.'
             ],
-            'cwc' => ['Information - Layanan BBK - Informasi Stock BBM'],
+            'cwc' => ['Keluhan - SPBU & Fuel Product - Dealership/Kemitraan - Informasi stok BBM'],
             'fcr' => [
                 'Agent 135 mencari Informasi Stock dengan cara menelpon ke SPBU dan konsumen',
                 'Solusi FCR (Kalau Konsumen Puas Closed)'
@@ -46,6 +46,6 @@ class Menu_A_P17 extends BaseController
             ],
             'sla' => '12 Jam'
         ];
-        return view('A/P17/index', $data);
+        return view('H/P2/index', $data);
     }
 }

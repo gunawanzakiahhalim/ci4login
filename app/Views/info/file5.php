@@ -5,8 +5,11 @@
                 <h5 class="card-title text-center">Informasi</h5>
                 <div class="list-group">
                     <h6 class="card-subtitle mb-2 text-muted mt-3">**Informasi Lengkap cek Diana</h6>
+                    <a href="https://arjunadigital.000webhostapp.com/pdf/Program%20Promo%20Store%20Maret%202021.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Program Promo Store Maret 2021</a>
                     <a href="https://ops11.000webhostapp.com/img/Promo%20Womens%20Day.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Harga BBM Promo Womens Day</a>
                     <a href="https://arjunadigital.000webhostapp.com/promo/pdf/List%20Store%20Promo%20Womens%20Day.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">List Promo Womens Day</a>
+                    <a href="https://ops11.000webhostapp.com/img/Pelaksanaan%20Vaksinasi%20Covid-19%20Di%20Lingkungan%20PERTAMINA%20Group.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Pelaksanaan Vaksinasi Covid-19 Di Lingkungan PERTAMINA Group</a>
+                    <a href="https://arjunadigital.000webhostapp.com/pdf/Alur%20vaksinasi%20rev1.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Alur vaksinasi rev1</a>
                     <a href="https://ops11.000webhostapp.com/img/Harga%20BBM%20Industri%20periode%20I%20Maret%202021.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Harga BBM Industri periode I Maret 2021</a>
                     <a href="https://ops11.000webhostapp.com/img/Hemat%20Makin%20Dahsyat%20Rp%20300.jpeg" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Hemat Makin Dahsyat Rp 300</a>
                     <a href="https://arjunadigital.000webhostapp.com/pdf/Materi%20Upskilling%20PCC%201-500-000.pdf" target="_blank" class="list-group-item list-group-item-action list-group-item-info">Materi Upskilling PCC 1-500-000</a>
