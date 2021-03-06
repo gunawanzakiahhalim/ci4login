@@ -5,7 +5,7 @@
     </button>
     <form action="/pansol" method="post" class="w-100 m-2 d-flex">
         <input class="form-control form-control-light " type="text" placeholder="Search" name="keyword" aria-label="Search" autocomplete="off" autofocus />
-        <button class="btn btn-outline-light ml-1" type="submit" name="submit">Cari</button>
+        <button class="btn btn-outline-light ms-1" type="submit" name="submit">Cari</button>
     </form>
     <a class="btn btn-outline-light" href="https://ops14.000webhostapp.com/" target="_blank" role="button">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-text" viewBox="0 0 16 16">

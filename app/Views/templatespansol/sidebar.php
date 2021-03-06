@@ -77,45 +77,54 @@
                     ]
                 ];
                 ?>
-                <div class="accordion" id="accordionExample">
-                    <?php foreach ($SubCategory1 as $row) : ?>
-                        <div class="card">
-                            <div class="card-header p-0" id="<?= $row["heading"]; ?>">
-                                <h2 class="mb-0">
-                                    <a href="/<?= $row["id_menu"] . '/' . $row["default"]; ?>" class="btn btn-light btn-block text-left p-3 rounded-0" type="button" data-target="#<?= $row["id_menu"]; ?>" aria-expanded="true" aria-controls="<?= $row["id_menu"]; ?>">
-                                        <span data-feather="<?= $row["icons"]; ?>"></span>
-                                        <?= $row["nama"]; ?>
-                                    </a>
-                                </h2>
-                            </div>
-                            <?php
-                            $menuId = $row['nama'];
-                            $menuUtama = $row['id_menu'];
-                            $db = \Config\Database::connect();
-                            $queryMenu = $db->query("SELECT * FROM pansol WHERE `pansol`.`subcategory1` = '$menuId' ");
-                            $menu = $queryMenu->getResultArray();
-                            ?>
-                            <?php if ($menuuri == $menuUtama) : ?>
-                                <div id="<?= $menuUtama; ?>" class="collapse show menu" aria-labelledby="<?= $row["heading"]; ?>" data-parent="#accordionExample">
-                                <?php else : ?>
-                                    <div id="<?= $menuUtama; ?>" class="collapse " aria-labelledby="<?= $row["heading"]; ?>" data-parent="#accordionExample">
-                                    <?php endif; ?>
+<div class="accordion" id="accordionExample">
+<?php foreach ($SubCategory1 as $row) : ?>
+  <div class="accordion-item">
 
-                                    <div class="card-body ">
-                                        <?php foreach ($menu as $row) : ?>
-                                            <?php if ($title == $row['judul']) : ?>
-                                                <a class="nav-link active stop" href="<?= $row['id_menu']; ?>">
-                                                <?php else : ?>
-                                                    <a class="nav-link" href="/<?= $menuUtama . "/" . $row['id_menu']; ?>">
-                                                    <?php endif; ?>
-                                                    <?= $row['judul']; ?>
-                                                    </a>
-                                                <?php endforeach; ?>
-                                    </div>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                        </div>
+  <h2 class="accordion-header" id="<?= $row["heading"]; ?>">
+    <?php
+    $menuId = $row['nama'];
+    $menuUtama = $row['id_menu'];
+    $db = \Config\Database::connect();
+    $queryMenu = $db->query("SELECT * FROM pansol WHERE `pansol`.`subcategory1` = '$menuId' ");
+    $menu = $queryMenu->getResultArray();
+    ?>
 
-                </div>
-        </nav>
+<?php if ($menuuri == $menuUtama) : ?>
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#<?= $row["id_menu"]; ?>" aria-expanded="true" aria-controls="<?= $row["id_menu"]; ?>">
+      <span data-feather="<?= $row["icons"]; ?>"></span><?= $row["nama"]; ?>
+      </button>
+<?php else : ?>
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#<?= $row["id_menu"]; ?>" aria-expanded="false" aria-controls="<?= $row["id_menu"]; ?>">
+      <span data-feather="<?= $row["icons"]; ?>"></span><?= $row["nama"]; ?>
+      </button>
+<?php endif; ?>
+    </h2>
+
+<?php if ($menuuri == $menuUtama) : ?>
+    <div id="<?= $menuUtama; ?>" class="accordion-collapse collapse show menu" aria-labelledby="<?= $row["heading"]; ?>" data-bs-parent="#accordionExample">
+<?php else : ?>
+    <div id="<?= $menuUtama; ?>" class="accordion-collapse collapse menu" aria-labelledby="<?= $row["heading"]; ?>" data-bs-parent="#accordionExample">
+<?php endif; ?>
+
+      <div class="accordion-body">
+<?php foreach ($menu as $row) : ?>
+    <?php if ($title == $row['judul']) : ?>
+        <a class="nav-link active stop" href="<?= $row['id_menu']; ?>"><?= $row['judul']; ?></a>
+    <?php else : ?>
+        <a class="nav-link" href="/<?= $menuUtama . "/" . $row['id_menu']; ?>"><?= $row['judul']; ?></a>
+    <?php endif; ?>
+<?php endforeach; ?>
+      </div>
+    </div>
+
+  </div>
+<?php endforeach; ?>
+</div>
+               
+
+
+
+</div>
+</nav>
+

@@ -5,19 +5,16 @@
   <div class="pt-3 pb-2 mb-1">
     <h1 class="h2 text-center"><?= $title; ?></h1>
   </div>
-  <nav>
 
+  <nav>
     <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-      <a class="nav-link active" id="nav-rootcause-tab" data-toggle="tab" href="#nav-rootcause" role="tab" aria-controls="nav-rootcause" aria-selected="true">ROOTCAUSE</a>
-      <a class="nav-link" id="nav-todolist-tab" data-toggle="tab" href="#nav-todolist" role="tab" aria-controls="nav-todolist" aria-selected="false">TODOLIST</a>
-      <a class="nav-link" id="nav-tiket-tab" data-toggle="tab" href="#nav-tiket" role="tab" aria-controls="nav-tiket" aria-selected="false">TIKET</a>
-      <label class="btn btn-light ml-auto " style="pointer-events: none;" disabled>
-        <span class="badge rounded-pill bg-success text-white p-2">
-          Update : <?= $update; ?>
-        </span>
-      </label>
+      <button class="nav-link active" id="nav-rootcause-tab" data-bs-toggle="tab" data-bs-target="#nav-rootcause" type="button" role="tab" aria-controls="nav-rootcause" aria-selected="true">ROOTCAUSE</button>
+      <button class="nav-link" id="nav-todolist-tab" data-bs-toggle="tab" data-bs-target="#nav-todolist" type="button" role="tab" aria-controls="nav-todolist" aria-selected="false">TODOLIST</button>
+      <button class="nav-link" id="nav-tiket-tab" data-bs-toggle="tab" data-bs-target="#nav-tiket" type="button" role="tab" aria-controls="nav-tiket" aria-selected="false">TIKET</button>
+      <span class="badge rounded-pill bg-success text-white p-1 m-1 lh-lg">Update : <?= $update; ?></span>
     </div>
   </nav>
+
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-rootcause" role="tabpanel" aria-labelledby="nav-rootcause-tab">
       <div class="card">

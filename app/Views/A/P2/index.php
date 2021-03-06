@@ -10,11 +10,7 @@
       <a class="nav-link active" id="nav-rootcause-tab" data-toggle="tab" href="#nav-rootcause" role="tab" aria-controls="nav-rootcause" aria-selected="true">ROOTCAUSE</a>
       <a class="nav-link" id="nav-todolist-tab" data-toggle="tab" href="#nav-todolist" role="tab" aria-controls="nav-todolist" aria-selected="false">TODOLIST</a>
       <a class="nav-link" id="nav-tiket-tab" data-toggle="tab" href="#nav-tiket" role="tab" aria-controls="nav-tiket" aria-selected="false">TIKET</a>
-      <label class="btn btn-light ml-auto " style="pointer-events: none;" disabled>
-        <span class="badge rounded-pill bg-success text-white p-2">
-          Update : <?= $update; ?>
-        </span>
-      </label>
+      <span class="badge rounded-pill bg-success text-white p-1 m-1 lh-lg">Update : <?= $update; ?></span>
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
