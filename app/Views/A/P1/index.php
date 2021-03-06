@@ -6,6 +6,7 @@
     <h1 class="h2 text-center"><?= $title; ?></h1>
   </div>
   <nav>
+
     <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
       <a class="nav-link active" id="nav-rootcause-tab" data-toggle="tab" href="#nav-rootcause" role="tab" aria-controls="nav-rootcause" aria-selected="true">ROOTCAUSE</a>
       <a class="nav-link" id="nav-todolist-tab" data-toggle="tab" href="#nav-todolist" role="tab" aria-controls="nav-todolist" aria-selected="false">TODOLIST</a>
